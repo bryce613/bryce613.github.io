@@ -1,0 +1,54 @@
+header {
+	position: sticky;
+	position: fixed;
+	background-color: black;
+	height: 15%;
+	width: 100%;
+}
+nav {
+	border-top: 1px solid #7f7f7f;
+	border-bottom: 1px solid #7f7f7f;
+	height: 26px;
+}
+nav a {
+	float: left;
+    display: block;
+	color: white;
+    text-align: center;
+    text-decoration: none;
+	border-right: 1px solid #7f7f7f;
+	width: 100px;
+	height: 25px;
+}
+nav a:hover {
+	border-bottom: 4px solid #7f7f7f;
+	color: white;
+	text-decoration: none;
+}
+.current {
+	border-bottom: 3px solid #7f7f7f;
+}
+p {
+	color: white;
+}
+h1, h2, h3, h4, h5, h6 {
+	color: white;
+}
+body {
+	background-color: black;
+}
+footer {
+	position: fixed;
+	margin-top: 25px;
+	border-top: 1px solid #7f7f7f;
+	height: 10%;
+	position: sticky;
+	bottom: 0;
+	background-color: black;
+}
+.content {
+	margin-top: 5%;
+	background-color: #1c1c1c;
+	height: 600px;
+	padding: 10px
+}
