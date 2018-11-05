@@ -40,6 +40,13 @@ h1, h2, h3, h4, h5, h6 {
 body {
 	background-color: #1c1c1c;
 }
+ul, ol {
+	color: white;
+}
+img {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
 footer {
 	position: fixed;
 	margin-top: 25px;
@@ -57,7 +64,7 @@ footer {
 	z-index: 0;
 	padding-top: 20px;
 }
-.left {
+.left, .right {
 	color: white;
 	width: 10%;
 	padding-top: 20%;
@@ -72,13 +79,6 @@ footer {
 }
 .content {
 	width: 80%;
-}
-.right {
-	color: white;
-	width: 10%;
-	padding-top: 20%;
-	text-align: center;
-	font-size: 300%;
 }
 .right a{
 	color: white;
