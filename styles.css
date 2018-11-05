@@ -1,0 +1,88 @@
+header {
+	position: sticky;
+	position: fixed;
+	background-color: black;
+	height: 15%;
+	width: 100%;
+	z-index: 1;
+	float: left;
+	top: 0;
+}
+nav {
+	border-top: 1px solid #7f7f7f;
+	border-bottom: 1px solid #7f7f7f;
+	height: 26px;
+}
+nav a {
+	float: left;
+    display: block;
+	color: white;
+    text-align: center;
+    text-decoration: none;
+	border-right: 1px solid #7f7f7f;
+	width: 100px;
+	height: 25px;
+}
+nav a:hover {
+	border-bottom: 4px solid #7f7f7f;
+	color: white;
+	text-decoration: none;
+}
+.current {
+	border-bottom: 3px solid #7f7f7f;
+}
+p {
+	color: white;
+}
+h1, h2, h3, h4, h5, h6 {
+	color: white;
+}
+body {
+	background-color: #1c1c1c;
+}
+ul, ol {
+	color: white;
+}
+img {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+footer {
+	position: fixed;
+	margin-top: 25px;
+	border-top: 1px solid #7f7f7f;
+	bottom: 0;
+	background-color: black;
+	z-index: 1;
+	margin-bottom: 0;
+	float: left;
+	width: 100%;
+}
+.main {
+	margin-top: 5%;
+	padding: 10px;
+	z-index: 0;
+	padding-top: 20px;
+}
+.left, .right {
+	color: white;
+	width: 10%;
+	padding-top: 20%;
+	text-align: center;
+	font-size: 300%;
+}
+.left a{
+	color: white;
+}
+.left a:hover {
+	color: #7f7f7f;
+}
+.content {
+	width: 80%;
+}
+.right a{
+	color: white;
+}
+.right a:hover {
+	color: #7f7f7f;
+}
