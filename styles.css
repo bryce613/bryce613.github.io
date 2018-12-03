@@ -12,6 +12,7 @@ nav {
 	border-bottom: 1px solid #7f7f7f;
 	height: 26px;
 	background-color: black;
+	max-width: 100%
 }
 nav a {
 	float: left;
@@ -46,6 +47,7 @@ ul, ol {
 img {
 	margin-top: 20px;
 	margin-bottom: 20px;
+	max-width: 100%;
 }
 footer {
 	position: fixed;
