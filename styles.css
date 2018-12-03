@@ -2,7 +2,6 @@ header {
 	position: sticky;
 	position: fixed;
 	background-color: black;
-	height: 15%;
 	width: 100%;
 	z-index: 1;
 	float: left;
@@ -12,6 +11,7 @@ nav {
 	border-top: 1px solid #7f7f7f;
 	border-bottom: 1px solid #7f7f7f;
 	height: 26px;
+	background-color: black;
 }
 nav a {
 	float: left;
